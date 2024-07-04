@@ -11,3 +11,101 @@
 	<script src="index.js"></script>
   </body>
 </html>
+<body itemscope itemtype="https://schema.org/Product">
+  <!-- Skip link section, hidden until link is focused -->
+  <ul class="skip-links">
+      <li><a href="#top">Skip to Banner</a></li>
+      <li><a href="#content">Skip to main content</a></li>
+      <li><a href="#footer">Skip to Footer Banner</a></li>
+  </ul>
+  <!--Header section-->
+<header>
+
+</header>
+<main id="main" role="main" itemprop="mainContentOfPage">
+  <ul>
+
+  </ul>
+</main>
+<!-- Pre-footer "download" banner -->
+<section class="banner-footer-outer-wrapper" id="lower-banner" role="region">
+  <div class="banner-footer-inner-wrapper">
+      <!-- Secondary banner image, with many variable widths for optimal loading -->
+      <img srcset="./images/banner-footer-100.png 100w,
+          ./images/banner-footer-200.png 200w,
+          ./images/banner-footer-400.png 400w,
+          ./images/banner-footer-800.png 800w,
+          ./images/banner-footer-1200.png 1200w,
+          ./images/banner-footer-1600.png 1600w,
+          ./images/banner-footer-2000.png 2000w" sizes="(min-width: 200px) 400px,
+          (min-width: 400px) 800px,
+          (min-width: 800px) 1200px,
+          (min-width: 1200px) 1600px,
+          2000px" src="./images/banner-footer.png" alt="Footer banner image of food on a table."
+          class="banner-footer-img" aria-label="An image featuring food on a table">
+
+      <!-- Banner text overlay, contains headings and links to app stores -->
+      <div class="banner-footer-text">
+          <div class="banner-footer-dl-labels">
+              <h2>I don't know what to put here!</h2>
+              <h4>I still don't know what to put here.</h4>
+          </div>
+          <div class="banner-footer-dl-buttons">
+              <a href="#" class="btn" aria-label="Get the app from the Playstore">Playstore</a>
+          </div>
+      </div>
+  </div>
+</section>
+
+<main id="main" role="main">
+  <!-- Divider line to separate animated image and header from main body content -->
+  <div class="divider-line"></div>
+  <h2 class="center-heading" role="heading">How the app works</h2>
+
+  <!-- First of 3 "highlight" sections, outlining the apps use -->
+  <!-- This one is about account creation -->
+  <div class="highlight" role="contentinfo">
+      <!-- Promotional phone image, with many variable widths for optimal loading -->
+      <img srcset="./images/account-phone-100.png 100w,
+      ./images/account-phone-200.png 200w,
+      ./images/account-phone-400.png 400w,
+      ./images/account-phone-800.png 800w,
+      ./images/account-phone-1200.png 1200w,
+      ./images/account-phone-1600.png 1600w,
+      ./images/account-phone-2000.png 2000w" sizes="(min-width: 200px) 400px,
+      (min-width: 400px) 800px,
+      (min-width: 800px) 1200px,
+      (min-width: 1200px) 1600px,
+      2000px" src="./images/account-phone.png" alt="The login page of the app." class="phone-model"
+          aria-label="An image of a phone depicting the app's login screen" itemprop="image">
+
+      <!-- Text block of highlight row. Describes image and app use -->
+      <div class="text-content">
+          <h3 class="hl-smallhead" role="heading">they really h</h3>
+          <h2 class="hl-head" role="heading">they really had us memorizing neil young songs in like 5th grade</h2>
+          <p class="hl-p">thats kinda based but also the source of all my problems</p>
+      </div>
+  </div>
+
+  <!-- Second of 3 "highlight" sections, outlining the apps use -->
+  <!-- This one is about app offerings -->
+  <div class="highlight" role="contentinfo">
+      <!-- Text block of highlight row. Describes image and app use -->
+      <!-- This one has a class that reverses its order on mobile to line up properly with the others -->
+      <div class="text-content hl-rev">
+          <h3 class="hl-smallhead" role="heading">Explore varieties</h3>
+          <h2 class="hl-head" role="heading">We have pizza here.</h2>
+          <p class="hl-p">Our pizza has been enjoyed by over 4 people worldwide.</p>
+      </div>
+
+  </div>
+
+  <div class="highlight" role="contentinfo">
+      <!-- Text block of highlight row. Describes image and app use -->
+      <div class="text-content">
+          <h3 class="hl-smallhead" role="heading">baby title</h3>
+          <h2 class="hl-head" role="heading">Big Title</h2>
+          <p class="hl-p">i dont know what to do here. im going to go listen to neil young</p>
+      </div>
+  </div>
+</main>
