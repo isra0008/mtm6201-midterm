@@ -121,3 +121,12 @@ text-spacing:1rem;
   padding: 23px 59px;
 
 }
+
+/*tablet*/
+@media screen and (min-width:768px) {
+
+}
+
+/*desktop*/
+@media screen and (min-width:1100px) {
+}
