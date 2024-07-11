@@ -19,93 +19,133 @@
       <li><a href="#footer">Skip to Footer Banner</a></li>
   </ul>
   <!--Header section-->
-<header>
+  <header role="banner" class="wrapper">
+    <div class="container-header">
+        <div class="logo vanish">
+            <a href="#"><img src="images/my-coffee-shop-logo.svg" title="My Coffee House logo"
+                    alt="Illustration of two coffee beans for My Coffee House logo"></a>
+        </div>
 
+        <nav id="nav" role="navigation" class="main-nav">
+            <ul>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#locations">Locations</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
-<main id="main" role="main" itemprop="mainContentOfPage">
-  <ul>
-
-  </ul>
-</main>
-<!-- Pre-footer "download" banner -->
-<section class="banner-footer-outer-wrapper" id="lower-banner" role="region">
-  <div class="banner-footer-inner-wrapper">
-      <!-- Secondary banner image, with many variable widths for optimal loading -->
-      <img srcset="./images/banner-footer-100.png 100w,
-          ./images/banner-footer-200.png 200w,
-          ./images/banner-footer-400.png 400w,
-          ./images/banner-footer-800.png 800w,
-          ./images/banner-footer-1200.png 1200w,
-          ./images/banner-footer-1600.png 1600w,
-          ./images/banner-footer-2000.png 2000w" sizes="(min-width: 200px) 400px,
-          (min-width: 400px) 800px,
-          (min-width: 800px) 1200px,
-          (min-width: 1200px) 1600px,
-          2000px" src="./images/banner-footer.png" alt="Footer banner image of food on a table."
-          class="banner-footer-img" aria-label="An image featuring food on a table">
-
-      <!-- Banner text overlay, contains headings and links to app stores -->
-      <div class="banner-footer-text">
-          <div class="banner-footer-dl-labels">
-              <h2>I don't know what to put here!</h2>
-              <h4>I still don't know what to put here.</h4>
-          </div>
-          <div class="banner-footer-dl-buttons">
-              <a href="#" class="btn" aria-label="Get the app from the Playstore">Playstore</a>
-          </div>
-      </div>
-  </div>
-</section>
 
 <main id="main" role="main">
-  <!-- Divider line to separate animated image and header from main body content -->
-  <div class="divider-line"></div>
-  <h2 class="center-heading" role="heading">How the app works</h2>
+  <section class="container-hero">
+    <div class="wrapper hero">
+      <h1>Experience coffee like never before</h1>
+      <p>We craft more than beverages; we curate memories, one flavorful moment at a time. Embrace the aroma and let every visit be a chapter in your coffee story</p>
+      <button class="btn">Explore our menu</button>
+    </div>
+  </section>
 
-  <!-- First of 3 "highlight" sections, outlining the apps use -->
-  <!-- This one is about account creation -->
-  <div class="highlight" role="contentinfo">
-      <!-- Promotional phone image, with many variable widths for optimal loading -->
-      <img srcset="./images/account-phone-100.png 100w,
-      ./images/account-phone-200.png 200w,
-      ./images/account-phone-400.png 400w,
-      ./images/account-phone-800.png 800w,
-      ./images/account-phone-1200.png 1200w,
-      ./images/account-phone-1600.png 1600w,
-      ./images/account-phone-2000.png 2000w" sizes="(min-width: 200px) 400px,
-      (min-width: 400px) 800px,
-      (min-width: 800px) 1200px,
-      (min-width: 1200px) 1600px,
-      2000px" src="./images/account-phone.png" alt="The login page of the app." class="phone-model"
-          aria-label="An image of a phone depicting the app's login screen" itemprop="image">
+  <section class="container-welcome">
+    <div class="wrapper">
+      <p>Welcome to my coffee house</p>
+        <h2>EXPERIENCE A NEW WAY TO TASTE COFFEE </h2>
+    </div>
+  </section>
 
-      <!-- Text block of highlight row. Describes image and app use -->
-      <div class="text-content">
-          <h3 class="hl-smallhead" role="heading">they really h</h3>
-          <h2 class="hl-head" role="heading">they really had us memorizing neil young songs in like 5th grade</h2>
-          <p class="hl-p">thats kinda based but also the source of all my problems</p>
+  <section class="container-offer wrapper">
+    <div class="wrapper"> 
+      <p>What we Offer</p>
+      <h2>Why visit us?</h2>
+
+      <div class="service-container">
+        <div class="service">
+          <img src="images/fair-trade.svg">
+          <h3>Fair Trade Coffee</h3>
+          <p>We build direct relationships with the farmers and producers who help in the development of delicious, sustainable and organic coffee.</p>
+        </div>
+ 
+        <div class="service">
+          <img src="images/local-baked-goods.svg">
+          <h3>Local Baked Goods</h3>
+          <p>We use local products to bake our goods and bring in a variety of treats from local bakers with our community.
+          </p>
+        </div>
+
+        <div class="service">
+          <img src="images/local-baked-goods.svg">
+          <h3>Made With Love</h3>
+          <p>We value our customers and make it our priority to serve everyone with respect and a friendly smile to start their day of right.
+          </p>
+        </div>
       </div>
   </div>
+  </section>
+            <section class="container-explore">
+              <div class="wrapper explore">
+                  <div id="menu" class="menu">
+                      <p class="text">Our Menu</p>
+                      <h2>Explore what we have to offer you</h2>
+                      <button type="button" class="btn" role="button">Explore our menu</button>
+                  </div>
+                  <div id="locations" class="locations">
+                      <p class="text">Locations</p>
+                      <h2>Find your nearest coffee shop</h2>
+                      <button type="button" id="clear-btn" class="btn" role="button">View Locations</button>
+                  </div>
+              </div>
+          </section>
 
-  <!-- Second of 3 "highlight" sections, outlining the apps use -->
-  <!-- This one is about app offerings -->
-  <div class="highlight" role="contentinfo">
-      <!-- Text block of highlight row. Describes image and app use -->
-      <!-- This one has a class that reverses its order on mobile to line up properly with the others -->
-      <div class="text-content hl-rev">
-          <h3 class="hl-smallhead" role="heading">Explore varieties</h3>
-          <h2 class="hl-head" role="heading">We have pizza here.</h2>
-          <p class="hl-p">Our pizza has been enjoyed by over 4 people worldwide.</p>
-      </div>
+          <!-- About Us -->
+          <section class="container-about">
+              <div class="about wrapper">
+                  <div class="about-img">
+                      <img src="images/about-us.jpeg" title="coffee-shop" alt="A top-down view of a coffee shop showcasing a vibrant and cozy atmosphere.">
+                  </div>
+                  <div id="about-us" class="about-story">
+                      <p class="text">About Us</p>
+                      <h2>Read our story</h2>
+                      <p>In the heart of our community, My Coffee House emerged as a humble local coffee shop that sought to redefine the coffee experience. Founded with a passion for quality brews and a commitment to fostering genuine connections, we embarked on this journey with a vision to create a warm and inviting space for coffee enthusiasts and casual patrons alike.</p>
+                      <p>My Coffee House quickly became a cherished gathering spot, where the rich aroma of freshly ground coffee beans mingled with the laughter of friends and the tapping of keyboards from those seeking a cozy workspace.</p>
+                      <button id="black-btn" type="button" class="btn" role="button" aria-label="Read more about the beginnings of My Coffee House coffee shop">Learn more</button>    
+                  </div>
+              </div>
+          </section>
+          <section class="container-testimonials wrapper">
+              <p class="text">Testimonials</p>
+              <h2>What our customers say about us</h2>
+              <div class="customers-testimonials">
+                  <div class="testimonial" itemprop="review">
+                      <img src="images/testimonial-1.jpeg">  
+                      
+                      <div class="review">
+                          <p>"I always make a point to visit My Coffee Company when in Ottawa. Delicious coffee and friendly service."</p>
+                          <p class="text customer" itemprop="author">Jane D., Toronto</p>
+                      </div>
+                  </div>
+                  <div class="testimonial" itemprop="review">
+                      <img src="images/testimonial-2.jpeg" title="testimonial-2" alt="Image of a man sitting in the coffee shop, smiling as he observes towards the horizon.">
+                      <div class="review">
+                          <p>"Great atmosphere to get some work done while enjoying a cup or two of incredible coffee."</p>
+                          <p class="text customer" itemprop="author">Scott S., Ottawa</p>
+                      </div>
+                  </div>
+                  <div class="testimonial" itemprop="review">
+                      <img src="images/testimonial-3.jpeg" title="testimonial-3" alt="Image of a smiling woman with curly hair holding a cold latte, using a laptop.">
+                      <div class="review" >
+                          <p>"Best coffee in Ottawa and the service is top notch. Would highly recommend a visit."</p>
+                          <p class="text customer" itemprop="author">Susie F., Ottawa </p>
+                      </div>
+                  </div>
+              </div>
+          </section> 
+      </main>
 
+      <footer role="contentinfo" class="footer wrapper">
+          <div class=" container-footer">
+              <hr>
+              <p>&copy; My Coffee Company 2024</p>
+          </div>
+      </footer>
   </div>
-
-  <div class="highlight" role="contentinfo">
-      <!-- Text block of highlight row. Describes image and app use -->
-      <div class="text-content">
-          <h3 class="hl-smallhead" role="heading">baby title</h3>
-          <h2 class="hl-head" role="heading">Big Title</h2>
-          <p class="hl-p">i dont know what to do here. im going to go listen to neil young</p>
-      </div>
-  </div>
-</main>
+</body>
+</html>
