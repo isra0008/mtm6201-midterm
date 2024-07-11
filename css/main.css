@@ -1,3 +1,15 @@
+/*definition of variables*/
+:root {
+  --white: #ffffff;
+  --black:#000000;
+  --light: #d69e3d;
+  --dark: #966f2c;
+  --background:#f3f0e9;
+  --ff-ss: "Lato", sans-serif;
+  --ff-ss-two: "Karla", sans-serif;
+  --mw: 1200px;
+}
+
 body {
     font-family: 'Roboto', Helvetica, sans-serif;
     background-color: rgb(177, 177, 177);
