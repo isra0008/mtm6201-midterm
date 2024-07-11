@@ -38,6 +38,7 @@ body {
 display:flex;
 margin:10px;
 justify-content:center;
+list-style:none;
 }
 
 .main-nav ul a {
