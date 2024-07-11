@@ -34,8 +34,16 @@ body {
 
 }
 
-.main-nav {
+.main-nav ul {
+display:flex;
+margin:10px;
+justify-content:center;
+}
 
+.main-nav ul a {
+  display:flex;
+  text-decoration:none;
+  color:white;
 }
 
 .logo {
