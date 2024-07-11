@@ -35,6 +35,7 @@ h1 {
 }
 
 
+
 /* header */ 
 .container-header {
 
@@ -48,8 +49,24 @@ h1 {
 
 }
 
-.logo-vanish {
+.logo {
+  display: flex;
+  justify-content:center;
+  padding:15px;
+}
 
+.logo img {
+  width: 250px;
+}
+
+/*container hero*/
+
+.container-hero {
+  background-image: url("../images/hero-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% 45%;
+    height: 420px;
 }
 
 /* main */
