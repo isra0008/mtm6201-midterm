@@ -212,6 +212,20 @@ color:white;
       margin-top: 0;
   }
 
+  /* container what we offer */
+  .container-offer {
+    margin-bottom: 70px;
+}
+
+.service-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
 }
 
 /*desktop*/
