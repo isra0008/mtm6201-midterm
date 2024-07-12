@@ -162,26 +162,40 @@ color:white;
 
 /* container - what we offer */
 .container-offer {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
 }
 .container-offer p {
+  margin: 0px;
 }
 .container-offer h2, h3 {
+  margin: 10px;
 }
 
 .service-container{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
 }
 
 .service {
-
+  padding-top:20px;
+    padding-bottom:20px;
+    margin: 20px;
 }
 .service img {
+  width: 100%;
+  height: 170px;
 }
 
 
 /*tablet*/
 @media screen and (min-width:768px) {
-  
+
     /* gallery */
     .gallery {
       display: grid;
