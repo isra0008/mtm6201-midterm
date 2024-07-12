@@ -22,8 +22,7 @@ body {
     background-color: #000000;
     justify-content: center;
     color: white;
-    flex-grow: 1;
-      padding: .75em 1.25em;
+    padding: .75em 1.25em;
     text-decoration: none;
   text-transform:uppercase;
   }
