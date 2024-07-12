@@ -185,5 +185,34 @@ color:white;
 }
 
 /*desktop*/
+
 @media screen and (min-width:1100px) {
+/* text sizes on desktop */
+  h1 {
+    font-size: 3.815rem;
+    color: white;
+    font-family:var(--ff-ss);
+    text-transform: uppercase;
 }
+
+h2 {
+    font-size: 3.052rem;
+    color: black;
+    font-family:var(--ff-ss);
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.953rem;
+    color: black;
+    font-family:var(--ff-ss);
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1rem;
+}
+
+
+}
+
