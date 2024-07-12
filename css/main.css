@@ -129,7 +129,7 @@ list-style:none;
   justify-content: center;
   color: white;
   flex-grow: 1;
-  padding: 25px 60px;
+    padding: .75em 1.25em;
   text-decoration: none;
 text-transform:uppercase;
 }
