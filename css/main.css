@@ -187,6 +187,13 @@ color:white;
 /*desktop*/
 
 @media screen and (min-width:1100px) {
+/* max-width */
+      .wrapper {
+        margin: 0 auto;
+        padding: 0;
+        max-width: var(--mw);
+    }
+
 /* text sizes on desktop */
   h1 {
     font-size: 3.815rem;
