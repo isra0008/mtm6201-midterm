@@ -297,5 +297,24 @@ p {
       padding: 0 250px;
   }
 
+/* container what we offer */
+.service-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.service { 
+  width: 600px;
+  padding-top:10px;
+  padding-bottom:10px;
+}  
+.service img {
+  width: 200px;
+  height: 100%;
+}
+
 }
 
