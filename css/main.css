@@ -36,6 +36,12 @@ body {
   
   }  
 
+  .text {
+    color: #d69e3d;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
 
 .wrapper {
   width: 100%; 
@@ -97,6 +103,16 @@ list-style:none;
   align-items: center;
   text-align: center;
   padding: 0 30px;
+}
+
+.hero h1 {
+text-transform:uppercase;
+color:white;
+}
+
+.hero p {
+  color:white;
+  padding: 0 50px;
 }
 
 /* main */
