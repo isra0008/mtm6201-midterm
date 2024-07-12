@@ -55,7 +55,7 @@ h3 {
   
   .btn:hover,
   .btn:focus {
-    font-family: Montserrat, sans-serif;
+    font-family:var(--ff-ss-two);
     border: 1px solid white;
     background-color: transparent;
   text-spacing:1rem;
@@ -235,6 +235,11 @@ p {
 .main-nav ul {
   margin-left: 350px;
 }
+
+/* container hero */
+    .hero {
+      padding: 0 250px;
+  }
 
 }
 
