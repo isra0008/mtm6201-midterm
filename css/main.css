@@ -17,6 +17,26 @@ body {
     margin: 0;
   }  
 
+  .btn {
+    font-family:arial, sans-serif;
+    background-color: #000000;
+    justify-content: center;
+    color: white;
+    flex-grow: 1;
+      padding: .75em 1.25em;
+    text-decoration: none;
+  text-transform:uppercase;
+  }
+  
+  .btn:hover,
+  .btn:focus {
+    font-family: Montserrat, sans-serif;
+    border: 1px solid white;
+    background-color: transparent;
+  text-spacing:1rem;
+  
+  }  
+
 
 .wrapper {
   width: 100%; 
@@ -121,31 +141,6 @@ list-style:none;
 .service img {
 }
 
-
-
-.btn {
-  font-family:arial, sans-serif;
-  background-color: #000000;
-  justify-content: center;
-  color: white;
-  flex-grow: 1;
-    padding: .75em 1.25em;
-  text-decoration: none;
-text-transform:uppercase;
-}
-
-
-
-
-.btn:hover,
-.btn:focus {
-  font-family: Montserrat, sans-serif;
-  border: 1px solid white;
-  background-color: transparent;
-text-spacing:1rem;
-  padding: 23px 59px;
-
-}
 
 /*tablet*/
 @media screen and (min-width:768px) {
