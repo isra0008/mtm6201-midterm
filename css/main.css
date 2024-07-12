@@ -1,3 +1,7 @@
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 html {
   box-sizing: border-box;
 }
@@ -12,28 +16,35 @@ html {
 }
 
 body {
-    font-family: 'Roboto', Helvetica, sans-serif;
-    background-color: rgb(177, 177, 177);
+  font-family:var(--ff-ss-two);
+    background-color: var(--background);
     margin: 0;
   }  
 
   h1 {
     color: white;
     font-size: 2.027rem;
+    font-family:var(--ff-ss);
+    text-transform: uppercase;
 }
 
 h2 {
     color: black;
     font-size: 1.802rem;
+    font-family:var(--ff-ss);
 }
 
 h3 {
     color: black;
     font-size: 1.424rem;
+    font-family:var(--ff-ss);
 }
 
   .btn {
-    font-family:arial, sans-serif;
+    font-family:var(--ff-ss-two);
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
     background-color: #000000;
     justify-content: center;
     color: white;
@@ -68,10 +79,6 @@ h3 {
   background-color:black;
   display: flex; 
   flex-direction: column;
-}
-
-#nav {
-
 }
 
 .main-nav ul {
