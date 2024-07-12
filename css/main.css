@@ -139,7 +139,12 @@ color:white;
 
 /* main */
 .container-welcome {
+  padding: 0 10px;
+  margin-bottom: 70px;
+}
 
+.container-welcome h2 {
+  padding-right: 100px;
 }
 
 /* container - gallery */
