@@ -42,7 +42,6 @@ h2 {
 }
 
 h3 {
-    color: black;
     font-size: 1.424rem;
     font-family:var(--ff-ss);
     text-transform:uppercase;
@@ -138,11 +137,11 @@ list-style:none;
 
 .wrapper-hero h1 {
 text-transform:uppercase;
-color:white;
+color:var(--white);
 }
 
 .wrapper-hero p {
-  color:white;
+  color:var(--white);
   padding: 0 50px;
 }
 
