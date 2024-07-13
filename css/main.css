@@ -123,7 +123,7 @@ list-style:none;
     height: 420px;
 }
 
-.wrapper-hero {
+.hero {
   background-color:#181818ae;
   height: 100%;
   width: 100%;
@@ -135,13 +135,13 @@ list-style:none;
   padding: 0 30px;
 }
 
-.wrapper-hero h1 {
+.hero h1 {
 text-transform:uppercase;
 color:var(--white);
 margin:10px;
 }
 
-.wrapper-hero p {
+.hero p {
   color:var(--white);
   padding: 0 50px;
 }
