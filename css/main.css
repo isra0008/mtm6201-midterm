@@ -214,6 +214,7 @@ color:white;
 }
 .container-explore h2, h3 {
   margin: 10px;
+  color:var(--white);
 }
 
 .explore {
