@@ -82,7 +82,7 @@ h3 {
   width: 100%; 
 }
 
-/* header */ 
+/* header & nav */ 
 .container-header {
   background-color:black;
   display: flex; 
@@ -113,7 +113,7 @@ list-style:none;
   width: 250px;
 }
 
-/*container hero*/
+/*hero*/
 
 .container-hero {
   background-image: url("../images/hero-background.jpg");
@@ -135,12 +135,13 @@ list-style:none;
   padding: 0 30px;
 }
 
-.wrapper-hero h1 {
+.hero h1 {
 text-transform:uppercase;
 color:var(--white);
+margin:10px;
 }
 
-.wrapper-hero p {
+.hero p {
   color:var(--white);
   padding: 0 50px;
 }
