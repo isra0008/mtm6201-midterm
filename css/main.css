@@ -376,9 +376,27 @@ p.customer {
 /*tablet*/
 @media screen and (min-width:768px) {
 
-  /*header*/
 
-    /* gallery */
+/* container hero*/
+  .hero {
+    padding: 0 80px;
+}
+.container-hero {
+    margin-bottom: 100px;
+}
+
+/* container welcome */
+  .container-welcome {
+      padding: 0 20px;
+      margin-bottom: 100px;
+  }
+
+  .container-welcome h2 {
+      padding-right: 250px;
+      margin-top: 0;
+  }
+
+/* gallery */
     .gallery {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -389,54 +407,46 @@ p.customer {
       margin-top: 0;
   }
 
-  /* container hero*/
-  .hero {
-    padding: 0 80px;
-}
-.container-hero {
-    margin-bottom: 100px;
-}
-
-  /* container what we offer */
+/* container what we offer */
   .container-offer {
-    margin-bottom: 70px;
-}
-
-.service-container {
+    margin-bottom: 70px;}
+ 
+  .service-container {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(2,1fr);
     justify-content: center;
     align-items: center;
-    padding: 40px;
-  }
-
+    padding: 40px;}
 
  .service { 
     width: 400px;
-    padding: 10px
-
-}  
+    padding: 10px}  
 
 .service img {
     width: 150px;
-    height: auto;
-}
+    height: auto;}
 
 /*container explore*/
-.container-explore {
+  .container-explore {
+  display: flex;}
+  
+  .explore {
   display: flex;
-}
+  flex-direction: row;}
+  
+  .menu,
+  .locations {
+      padding: 40px;}
 
 /*customer testimony*/
-.customers-testimonials {
+  .customers-testimonials {
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows:auto;
-  gap: 20px;
-}
+  gap: 20px;}
 
 .container-testimonials h2{
   color:var(--white);
@@ -497,6 +507,12 @@ p {
     .hero {
       padding: 0 250px;
   }
+
+/* container welcome */
+
+.container-welcome {
+  padding: 0 150px;
+}
 
 /* container what we offer */
 
