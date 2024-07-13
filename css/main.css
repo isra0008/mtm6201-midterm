@@ -380,6 +380,7 @@ p.customer {
 }
 
 /* container welcome */
+
   .container-welcome {
       padding: 0 20px;
       margin-bottom: 100px;
@@ -435,6 +436,12 @@ p.customer {
       padding: 40px;}
 
 /*customer testimony*/
+
+.container-testimonials p {
+  padding-top: 90px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
   .customers-testimonials {
   padding: 20px;
   display: grid;
@@ -442,10 +449,6 @@ p.customer {
   grid-template-rows:auto;
   gap: 20px;}
 
-.container-testimonials h2{
-  color:var(--white);
-  text-transform:uppercase;
-}
 
 }
 
