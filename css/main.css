@@ -458,6 +458,11 @@ p {
   }
 
 /* container what we offer */
+
+.container-offer {
+  margin-bottom: 100px;
+  
+}
 .service-container {
   width: 100%;
   display: flex;
