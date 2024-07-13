@@ -32,12 +32,14 @@ h2 {
     color: black;
     font-size: 1.802rem;
     font-family:var(--ff-ss);
+    text-transform:uppercase;
 }
 
 h3 {
     color: black;
     font-size: 1.424rem;
     font-family:var(--ff-ss);
+    text-transform:uppercase;
 }
 
   .btn {
@@ -215,6 +217,7 @@ color:white;
 .container-explore h2, h3 {
   margin: 10px;
   color:var(--white);
+  text-transform:uppercase;
 }
 
 .explore {
@@ -237,7 +240,7 @@ color:white;
 
 .menu h2,
 .locations h2 {
-color: var(--white)
+color: var(--white);
 }
 
 /* container about */
@@ -284,6 +287,7 @@ color: var(--white)
   color:var(--white);
   margin-top: 10px;
   padding-right: 100px;
+  text-transform:uppercase;
 }
 
 .customers-testimonials {
@@ -340,6 +344,7 @@ p.customer {
 .review {
   position: relative;
   top: -140px;
+  color: var(--white);
 }
 
 
