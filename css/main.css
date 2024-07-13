@@ -197,6 +197,18 @@ color:white;
   height: 170px;
 }
 
+/*explore*/
+.container-explore {
+  background-image: url("../images/coffee-shop.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 650px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 90px;
+}
+
 /*footer*/
 .container-footer {
   padding-top: 40px;  
@@ -204,10 +216,10 @@ color:white;
   background-color: var(--black);
   text-align: center;
 }
-
 .container-footer p {
   color: var(--white);
 }
+
 
 /*tablet*/
 @media screen and (min-width:768px) {
