@@ -7,6 +7,8 @@ html {
 }
 /*definition of variables*/
 :root {
+  --white: #ffffff;
+    --black:#000000;
   --light: #d69e3d;
   --dark: #966f2c;
   --background:#f3f0e9;
