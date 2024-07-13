@@ -234,6 +234,33 @@ color:white;
   padding-bottom: 40px;
 }
 
+/* container about */
+.container-about {
+  padding: 0 10px;
+  margin-bottom: 70px;
+}
+
+.container-about p {
+  margin-top: 0px;
+}
+.container-about h2 {
+  margin: 0px;
+  padding-bottom: 20px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-img img{
+  width: 100%;
+}
+
+.about-story {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 /*footer*/
 .container-footer {
