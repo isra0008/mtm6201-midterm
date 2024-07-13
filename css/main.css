@@ -262,6 +262,36 @@ color:white;
   margin-bottom: 20px;
 }
 
+/*testimonials*/
+.container-testimonials {
+  background-color: var(--black);
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 40px 10px;
+}
+
+.container-testimonials p {
+  margin: 0;
+}
+
+.container-testimonials h2{
+  color:var(--white);
+  margin-top: 10px;
+  padding-right: 100px;
+}
+
+.customers-testimonials {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px;
+}
+
+.testimonial {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  
+}
 /*footer*/
 .container-footer {
   padding-top: 40px;  
