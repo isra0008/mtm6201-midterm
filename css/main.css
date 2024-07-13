@@ -212,7 +212,7 @@ color:white;
 .container-explore p {
   margin: 0px;
 }
-.container-explorer h2, h3 {
+.container-explore h2, h3 {
   margin: 10px;
 }
 
@@ -404,6 +404,10 @@ p.customer {
     height: auto;
 }
 
+/*container explore*/
+.container-explore {
+  display: flex;
+}
 }
 
 /*desktop*/
