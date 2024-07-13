@@ -5,10 +5,15 @@
 html {
   box-sizing: border-box;
 }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /*definition of variables*/
 :root {
   --white: #ffffff;
-    --black:#000000;
+  --black:#000000;
   --light: #d69e3d;
   --dark: #966f2c;
   --background:#f3f0e9;
