@@ -216,6 +216,25 @@ color:white;
   margin: 10px;
 }
 
+.explore {
+  background-color:#181818ae;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 30px;
+}
+
+.menu,
+.locations {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
 /*footer*/
 .container-footer {
   padding-top: 40px;  
