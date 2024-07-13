@@ -435,6 +435,16 @@ p.customer {
   .locations {
       padding: 40px;}
 
+/*container about*/
+.about {
+  display: flex;
+  flex-direction: row;}     
+  
+  .about-story {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;} 
+  
 /*customer testimony*/
 
 .container-testimonials p {
