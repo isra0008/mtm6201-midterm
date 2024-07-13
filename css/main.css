@@ -308,6 +308,19 @@ color:white;
   /* object-position:top; */
 }
 
+.testimonial:nth-child(1) img{
+  object-position:40% 50%;
+}
+
+.testimonial:nth-child(2) img{
+  object-position:90% 5%;
+}
+
+.testimonial:nth-child(3) img{
+  object-position:90% 2%;
+}
+
+
 /*footer*/
 .container-footer {
   padding-top: 40px;  
