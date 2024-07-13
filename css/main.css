@@ -273,6 +273,7 @@ color: var(--white);
 }
 
 /*testimonials*/
+
 .container-testimonials {
   background-color: var(--black);
   display: grid;
@@ -345,6 +346,8 @@ p.customer {
 .review {
   position: relative;
   top: -140px;
+}
+.review p {
   color: var(--white);
 }
 
