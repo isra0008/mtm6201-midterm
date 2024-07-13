@@ -29,7 +29,6 @@ body {
 }
 
 h2 {
-    color: black;
     font-size: 1.802rem;
     font-family:var(--ff-ss);
     text-transform:uppercase;
@@ -423,6 +422,11 @@ p.customer {
   grid-template-columns: repeat(3,1fr);
   grid-template-rows:auto;
   gap: 20px;
+}
+
+.container-testimonials h2{
+  color:var(--white);
+  text-transform:uppercase;
 }
 
 }
