@@ -414,6 +414,16 @@ p.customer {
 .container-explore {
   display: flex;
 }
+
+/*customer testimony*/
+.customers-testimonials {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows:auto;
+  gap: 20px;
+}
+
 }
 
 /*desktop*/
