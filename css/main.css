@@ -209,6 +209,13 @@ color:white;
   margin-bottom: 90px;
 }
 
+.container-explore p {
+  margin: 0px;
+}
+.container-explorer h2, h3 {
+  margin: 10px;
+}
+
 /*footer*/
 .container-footer {
   padding-top: 40px;  
