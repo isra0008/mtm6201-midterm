@@ -320,6 +320,22 @@ color:white;
   object-position:90% 2%;
 }
 
+.testimonial p {
+  color: var(--white);
+  padding: 0 20px;
+}
+
+p.customer {
+  color: var(--light);
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+
+.review {
+  position: relative;
+  top: -140px;
+}
+
 
 /*footer*/
 .container-footer {
