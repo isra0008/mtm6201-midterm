@@ -348,7 +348,7 @@ color: var(--white);}
 }
 
 p.customer {
-  color: var(--light);
+  color:#d69e3d;
   padding: 0 20px;
   text-transform: uppercase;
 }
