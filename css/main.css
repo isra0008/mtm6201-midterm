@@ -83,7 +83,6 @@ nav {
   background-color: transparent;
   border: solid 1px var(--white);
   color: var(--white);
-  transition: background-color 0.3s ease;
 }
 
 #black-btn {
@@ -110,6 +109,7 @@ nav {
     border: solid 1px var(--white);
     color: var(--white);
 }
+
 #black-btn:hover,
 #black-btn:focus {
     background-color: var(--dark);
