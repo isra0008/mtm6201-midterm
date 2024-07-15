@@ -48,6 +48,10 @@ h3 {
     text-transform:uppercase;
 }
 
+nav {
+  text-transform: uppercase;
+}
+
   .btn {
     font-family:var(--ff-ss-two);
     font-size: 1rem;
