@@ -479,12 +479,11 @@ p.customer {
       margin-top: 0;
   }
 
-/* gallery */
-    .gallery {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-  }  
+/* container gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;}
 
   .sub-gallery {
       margin-top: 0;
@@ -607,7 +606,7 @@ p {
 
 /* container welcome */
   .container-welcome {
-    padding: 0 200px;}
+    padding: 0 100px;}
 
 /* container what we offer */
   .container-offer {
