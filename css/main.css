@@ -541,5 +541,9 @@ p {
   padding: 0 75px;
 }
 
+.about-img img {
+width:400px;
+height:auto;}
+
 }
 
