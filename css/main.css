@@ -76,6 +76,7 @@ nav {
  #white-btn {
     background-color: var(--white);
     color: var(--black);
+    border: none;
   }  
 
 #clear-btn {
