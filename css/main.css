@@ -48,38 +48,39 @@ h3 {
     text-transform:uppercase;
 }
 
+.text {
+  color: #d69e3d;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
 nav {
   text-transform: uppercase;
 }
+
+/*buttons*/
 
   .btn {
     font-family:var(--ff-ss-two);
     font-size: 1rem;
     font-weight: 800;
     text-transform: uppercase;
-    background-color: #000000;
+    background-color: var(--white);
     justify-content: center;
-    color: white;
     padding: .75em 1.25em;
     text-decoration: none;
+    cursor: pointer;
   text-transform:uppercase;
   }
-  
-  .btn:hover,
-  .btn:focus {
-    font-family:var(--ff-ss-two);
-    border: 1px solid white;
-    background-color: transparent;
-  text-spacing:1rem;
-  
-  }  
 
-  .text {
-    color: #d69e3d;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 1.2rem;
+  
+#clear-btn {
+  background-color: transparent;
+  border: solid 1px var(--white);
+  color: var(--white);
 }
+  
 
 /*button hover*/
 
