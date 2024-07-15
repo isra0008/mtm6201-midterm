@@ -74,13 +74,17 @@ nav {
   text-transform:uppercase;
   }
 
-  
 #clear-btn {
   background-color: transparent;
   border: solid 1px var(--white);
   color: var(--white);
 }
-  
+
+#black-btn {
+  background-color: var(--black);
+  border: none;
+  color: var(--white);
+}
 
 /*button hover*/
 
