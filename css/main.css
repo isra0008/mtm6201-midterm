@@ -90,7 +90,7 @@ nav {
     background-color: var(--dark);
     border: solid 1px var(--white);
     color: var(--white);
-    border-radius:20px;
+    border-radius:10px;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
@@ -103,7 +103,7 @@ nav {
     background-color: var(--white);
     border: solid 1px var(--white);
     color: var(--black);
-    border-radius:20px;
+    border-radius:10px;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
