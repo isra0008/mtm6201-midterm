@@ -448,7 +448,6 @@ p.customer {
 .container-footer {
   padding-top: 40px;  
   padding-bottom: 40px; 
-  background-color: var(--black);
   text-align: center;
 }
 .container-footer p {
@@ -554,6 +553,13 @@ p.customer {
 .testimonial p {
     padding: 7px 20px;
 }
+
+/*container footer*/
+.container-footer {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 }
 
 /*desktop*/
