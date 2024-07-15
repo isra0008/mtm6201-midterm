@@ -22,6 +22,7 @@ html {
   --mw: 1200px;
 }
 
+/*universal styles*/
 body {
   font-family:var(--ff-ss-two);
     background-color: var(--background);
@@ -74,6 +75,24 @@ h3 {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 1.2rem;
+}
+
+/*button hover*/
+
+.btn:hover,
+.btn:focus,
+#black-btn:hover,
+#black-btn:focus {
+    background-color: var(--dark);
+    border: solid 1px var(--white);
+    color: var(--white);
+}
+
+#clear-btn:hover,
+#clear-btn:focus {
+    background-color: var(--white);
+    border: solid 1px var(--white);
+    color: var(--black);
 }
 
 /*skip links*/
