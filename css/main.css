@@ -459,6 +459,13 @@ p.customer {
   grid-template-rows:auto;
   gap: 20px;}
 
+  .testimonial {
+    height: 600px;
+}
+
+.testimonial p {
+    padding: 7px 20px;
+}
 
 }
 
