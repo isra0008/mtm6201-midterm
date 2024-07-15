@@ -159,7 +159,16 @@ list-style:none;
   color:white;
   padding: .75em 1.25em;
 }
-
+/* hover and focus nav nav */
+.main-nav ul a:hover,
+.main-nav ul a:focus {
+    color: var(--dark);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
 .logo {
   display: flex;
   justify-content:center;
