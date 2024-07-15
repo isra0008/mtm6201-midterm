@@ -66,13 +66,16 @@ nav {
     font-size: 1rem;
     font-weight: 800;
     text-transform: uppercase;
-    background-color: var(--white);
     justify-content: center;
     padding: .75em 1.25em;
     text-decoration: none;
     cursor: pointer;
     text-transform:uppercase;
   }
+
+ #white-btn {
+    background-color: var(--white);
+  }  
 
 #clear-btn {
   background-color: transparent;
