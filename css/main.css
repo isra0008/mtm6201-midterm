@@ -94,18 +94,26 @@ nav {
 /*button hover*/
 
 .btn:hover,
-.btn:focus,
+.btn:focus {
+  border-radius:10px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#white-btn:hover,
+#white-btn:focus {
+    background-color: var(--dark);
+    border: solid 1px var(--white);
+    color: var(--white);
+}
 #black-btn:hover,
 #black-btn:focus {
     background-color: var(--dark);
     border: solid 1px var(--white);
     color: var(--white);
-    border-radius:10px;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
 }
 
 #clear-btn:hover,
@@ -113,12 +121,6 @@ nav {
     background-color: var(--white);
     border: solid 1px var(--white);
     color: var(--black);
-    border-radius:10px;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
 }
 
 /*skip links*/
