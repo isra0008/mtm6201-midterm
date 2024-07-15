@@ -535,7 +535,7 @@ p {
   height: 100%;
 }
 
-/* container testimonials */
+/* container about */
 
 .about {
   padding: 0 75px;
@@ -544,6 +544,12 @@ p {
 .about-img img {
 width:400px;
 height:auto;}
+
+/*container testimonials*/
+
+   .container-testimonials {
+  padding-left: 75px;
+  padding-right: 75px;}
 
 }
 
