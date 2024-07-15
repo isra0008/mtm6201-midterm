@@ -551,5 +551,16 @@ height:auto;}
   padding-left: 75px;
   padding-right: 75px;}
 
+  .container-testimonials h2 {
+    padding-right: 400px;
+    margin-bottom: 20px;
+}
+
+  .testimonial {
+    height: 400px;
+}
+
+
+
 }
 
