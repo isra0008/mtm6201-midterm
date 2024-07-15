@@ -301,7 +301,6 @@ color: var(--white);}
   gap: 20px;
 }
 
-
 .customers-testimonials img {
   opacity: .6;
 }
@@ -356,9 +355,6 @@ p.customer {
 .review {
   position: relative;
   top: -140px;
-}
-.review p {
-  color: var(--white);
 }
 
 
@@ -479,7 +475,6 @@ p.customer {
 .testimonial p {
     padding: 7px 20px;
 }
-
 }
 
 /*desktop*/
