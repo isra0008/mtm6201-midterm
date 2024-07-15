@@ -301,6 +301,11 @@ color: var(--white);}
   gap: 20px;
 }
 
+
+.customers-testimonials img {
+  opacity: .6;
+}
+
 .testimonial {
   height: 500px;
   display: flex;
@@ -335,6 +340,8 @@ color: var(--white);}
   object-position:90% 2%;
 }
 
+
+
 .testimonial p {
   color: var(--white);
   padding: 0 20px;
@@ -356,6 +363,12 @@ p.customer {
 
 
 /*footer*/
+
+.footer {
+  background-color: var(--black);
+  padding: 0 10px;
+}
+
 .container-footer {
   padding-top: 40px;  
   padding-bottom: 40px; 
