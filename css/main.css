@@ -613,17 +613,24 @@ p {
   .container-offer {
     margin-bottom: 100px;}
 
-  .service-container {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;}
+    .service-container {
+      height: 400px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+  }
 
 .service { 
-  width: 600px;
-  padding-top:10px;
-  padding-bottom:10px;
-}  
+  padding: 0;
+        margin: 10px;
+        width: 350px;
+} 
+ 
+.service h3 {
+  white-space: nowrap
+}
+
 .service img {
   width: 120px;
   height: 100%;
